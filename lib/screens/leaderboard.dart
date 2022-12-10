@@ -18,7 +18,7 @@ class _ProfileState extends State<Profile> {
           IconButton(onPressed: () {}, icon: Icon(Icons.person_add)),
         ],
         title: Text(
-          "Profile",
+          "Leaderboard",
           style: TextStyle(fontSize: 29),
         ),
         centerTitle: true,
@@ -63,7 +63,7 @@ class _ProfileState extends State<Profile> {
                     height: 10,
                   ),
                   Text(
-                    "Dhananjay Arne",
+                    "Dr.Strange",
                     style: TextStyle(
                         fontSize: 22,
                         color: Colors.white,
@@ -92,7 +92,7 @@ class _ProfileState extends State<Profile> {
                                 fontWeight: FontWeight.w300,
                                 color: Colors.white.withOpacity(0.9)),
                           ),
-                          Text("Level",
+                          Text("points",
                               style: TextStyle(
                                   fontSize: 19,
                                   fontWeight: FontWeight.bold,
@@ -142,7 +142,7 @@ class _ProfileState extends State<Profile> {
                             SizedBox(
                               width: 3,
                             ),
-                            Text("Dhananjay Arne")
+                            Text("Peter Parker")
                           ],
                         ),
                         leading: Text(
@@ -150,7 +150,7 @@ class _ProfileState extends State<Profile> {
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         trailing: Text(
-                            "Rs.${(200000 / (index + 1)).toString().substring(0, 5)}",
+                            "${(200000 / (index + 1)).toString().substring(0, 5)}",
                             style: TextStyle(fontWeight: FontWeight.bold)),
                       );
                     },
