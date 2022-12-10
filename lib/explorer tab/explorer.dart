@@ -5,12 +5,9 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_online_learning_app/explorer%20tab/appstyles.dart';
-<<<<<<< HEAD
-=======
 import 'package:flutter_online_learning_app/explorer%20tab/sizeconfig.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
->>>>>>> f0b9327cc1a310439c49b801bacc6ccf8a59e17a
 
 class explorer extends StatefulWidget {
   const explorer({Key? key}) : super(key: key);
@@ -158,7 +155,6 @@ class _explorerState extends State<explorer> {
             ),
 
           ),
-<<<<<<< HEAD
           
 
           SizedBox(
@@ -175,15 +171,10 @@ class _explorerState extends State<explorer> {
     cards(name: "Ajay",
     subtitle: "Software Developer at ABC",
     date: "5 Hrs",
-    desc: "Accepted into Burbon Coollege",
+    desc: "Accepted into Burbuon Coollege",
     url: "https://images.unsplash.com/photo-1614796067785-93f746b74cce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     ),
     
-=======
-
-
-cards(texti: "Hi there",)
->>>>>>> f0b9327cc1a310439c49b801bacc6ccf8a59e17a
          
 
 
@@ -198,7 +189,6 @@ cards(texti: "Hi there",)
 
 class cards extends StatelessWidget {
   const cards({
-<<<<<<< HEAD
     Key? key, required this.name, this.subtitle, this.date, this.desc, this.url
   }) : super(key: key);
   final name;
@@ -206,16 +196,10 @@ class cards extends StatelessWidget {
   final date ; 
   final desc ; 
   final url ; 
-=======
-    Key? key, this.texti
-  }) : super(key: key);
-  final texti ;
->>>>>>> f0b9327cc1a310439c49b801bacc6ccf8a59e17a
 
   @override
   Widget build(BuildContext context) {
     return Container(
-<<<<<<< HEAD
       
       padding: EdgeInsets.all(8),
       decoration: BoxDecoration(
@@ -230,12 +214,6 @@ class cards extends StatelessWidget {
         // Header
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-=======
-     child: Column(
-      children: [
-        // Header
-        Row(
->>>>>>> f0b9327cc1a310439c49b801bacc6ccf8a59e17a
           children: [
             Row(
               children: [
@@ -244,34 +222,23 @@ class cards extends StatelessWidget {
                     backgroundImage: NetworkImage("https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"),
                   ),
                 ),
-<<<<<<< HEAD
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Column(
                     children: [Text(name,style:TextStyle(fontWeight: FontWeight.bold,fontSize: 17),),
                     Text(subtitle,style: TextStyle(fontSize: 14,color: Colors.blueGrey),)],
                   ),
-=======
-                Column(
-                  children: [Text("Pixel Solutions"),
-                  Text("Subttitle")],
->>>>>>> f0b9327cc1a310439c49b801bacc6ccf8a59e17a
                 )
               ],
             ),
             Container(
-<<<<<<< HEAD
               child: Text(date),
-=======
-              child: Text("Date and Time"),
->>>>>>> f0b9327cc1a310439c49b801bacc6ccf8a59e17a
             )
           ],
         ),
         
         // Description
         Container(
-<<<<<<< HEAD
           
           child: Text(desc,),
         ),
@@ -295,26 +262,6 @@ class cards extends StatelessWidget {
             Icon(Icons.thumb_up_sharp, color: Colors.green,),
             SizedBox(width: 5,),
             Icon(Icons.save,color: Colors.green,),
-=======
-          child: Text("Blaah Blaah black sheep have you any wool"),
-        ),
-        
-        // Image
-        Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(image: NetworkImage(""),
-            fit: BoxFit.cover)
-          ),
-        ),
-        
-        // buttons
-        Row(
-
-          children: [
-            Icon(Icons.comment),
-            Icon(Icons.thumb_up_sharp),
-            Icon(Icons.save),
->>>>>>> f0b9327cc1a310439c49b801bacc6ccf8a59e17a
           ],
         )
       ],
