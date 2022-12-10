@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_online_learning_app/explorer%20tab/explorer.dart';
+import 'package:flutter_online_learning_app/explorer%20tab/trial2.dart';
+import 'package:flutter_online_learning_app/pageselector.dart';
+import 'package:flutter_online_learning_app/trial.dart';
 import 'screens/screens.dart';
 
 void main() {
@@ -16,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: const Color(0xff29274F),
       ),
-      home: const HomeScreen(),
+      home: pageselector(),
     );
   }
 }
